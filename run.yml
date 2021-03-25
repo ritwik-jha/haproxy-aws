@@ -1,0 +1,7 @@
+- hosts: tag_server_loadbalancer
+  roles:
+          - /root/task/loadbalancer
+
+- hosts: tag_server_backend
+  roles:
+          - /root/task/backend
