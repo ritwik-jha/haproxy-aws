@@ -36,7 +36,7 @@ wget https://raw.githubusercontent.com/ansible/ansible/stable-2.9/contrib/invent
 This will dowload the ec2.py and ec2.ini file in the /mydb folder which we specify as the inventory in the ansible config file. 
 
 **/mydb folder:**
-![mydb](images/picture-13.png)
+![mydb](images/picture13.png)
 
 We pass the aws access key id and aws secret access key to the ec2 ini file. This will help the script to login to our aws account and retrieve the desired contents. 
 Both the files need to be placed in a separate folder and this folder is declared as the inventory in ansible config file. 
